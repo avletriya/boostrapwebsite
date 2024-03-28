@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* --------second portion------ */
+.headimage {
+  text-align: center;
+
+}
+
+/* -------3rd portion------- */
+.image1 {
+  margin-top: 20px;
+  justify-content: center;
+  width: 80%;
+  
+  background-color: gainsboro;
+  display: flex;
+  
+}
+
+/* ---------fourth portion-------- */
+.heading {
+  background-color: gainsboro;
+  height: 700px;
+}
+
+.head1 {
+  padding-top: 80px;
+  padding-bottom: 60px;
+  color: black;
+  background-color: gainsbor
+}
+
+.secondpart {
+  background-color: gainsboro;
+}
+
+.rgt-1 {
+  padding-top: 40px;
+}
+
+
+@media(width<=600px) {
+  .btn-container {
+    display: flex;
+    justify-content: center;
+
+  }
+}
+
+
+/* ----------5th portion-------- */
+
+.thirdpart {
+  background-color: gainsboro;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+
+
+.lft-5 {
+  padding-top: 50px;
+
+}
+
+/* --------6th portion------ */
+
+.fourimages {
+  background-color: gainsboro;
+}
+
+/* -------7th portion--------- */
+.follow{
+  background-color: gainsboro;
+  padding: 90px;
+}
+
+.follow1{
+  color: white;
+  
+}
+.icons{
+  
+  
+}
+
+/* -------footer-------- */
+.footer{
+  background-color: black;
+}
+
+.foot-container{
+  max-width: flex;
+  background-color:black;
+  margin: auto;
+
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+ul{
+  list-style: none;
+}
+.footer{
+  background-color:black;
+   padding: 0 15px; 
+}
+
+.footer-col{
+  width: 25%;
+  /* padding: 0 15px; */
+}
+
+.footer-col h4{
+  font-size: 20px;
+  color: #ffff;
+  text-transform: capitalize;
+   margin-bottom: 30px;
+  font-weight: 600;
+  color: #ffff;
+  display: block;
+padding-left: 23px;
+}
+
+ .footer-col h4::before{
+  
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+   height: 2px;
+  box-sizing: border-box;
+  width: 100px;
+} 
+
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 300;
+  color: aliceblue;
+  text-decoration: none;
+  
+}
+
+.footer-col ul li a:hover{
+  color: white;
+}
+
+@media(max-width:574px){
+  .footer-col{
+    width:100%;
+    text-align: left;
+    
+  }
+}
